@@ -1,0 +1,12 @@
+language: node_js
+node_js: 6
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: AKIAJAE3TQGJPGPHH6YA
+  secret_access_key:
+    secure: iXHTydW1phqlsowEG+gur/R61HTZVzNollb+Jcco3PCmfFdRKlMEvEjtrfhvj3z5j5EUO7ijvpBDSFE736MU/qFm5Zur/ewvmVpuvK3+cdyM5VOGG1yJc5wj2qcYIwr1KxJWgvnUfyFp0aySozeAXVuGsn5msNhSoH7BLsu0dDthmeKzKB9swbzxdwzCpe71b62zM3X0M+Xnpqld7hNSpulg8r/ZsefHLsUrZAYl/Nh2SVDn7HZ2fVsJ5xag4VDEdsZ8U3NAZOd5oRDgij5QclBDVegVMAVkhzv3xOtVAoykkhT8mRJBYMgwQU4QrP58y7WedW/8o0CZzaCoJ18FKeD5MqUmxUq6hOuJjg7s/fuB+X3xn/YqF2SDfQwUpA7NxFcWPhbJJrdLOya/FRtqP/e8f79x3WqvFj/gUTD0Hk2IOgrWnjLd6lmuW6aNibAjFY4kQS4pgfTsxgBDLReJMnZhDguHJTqtkB/3siKf/2l+kacSBC2CEQ8CbDl+HN8pZ5pzWXCmcbXJZyd6xg5MiAOSOBZN23KmOSokKeDp4tvNgkqauQtkRSICjXt2p62KbZDeVTeSK3TjQOT8tj3GlSzMCF3JofWoS+jGGZ3CA5fCUAjKLPcyn4g6s+XkXlYpJoLpC+LA+vyGGyiuDux+YsJYhXdoIMxGdvHaVNApjcg=
+  region: us-east-1
+  app: test-eb
+  env: test-eb
+  on:
+    repo: metaphor10/test-eb
