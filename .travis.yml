@@ -10,3 +10,4 @@ deploy:
   env: test-eb
   on:
     repo: metaphor10/test-eb
+  bucket_name: test-eb
